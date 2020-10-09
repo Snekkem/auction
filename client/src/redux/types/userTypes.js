@@ -1,0 +1,6 @@
+export const SET_USER_CARDS = 'SET_USER_CARDS'
+export const SET_RATING = 'SET_RATING'
+export const SET_BALANCE = 'SET_BALANCE'
+export const SET_ALL_SETS = 'SET_ALL_SETS'
+export const SET_USER_INFO = 'SET_USER_INFO'
+export const SET_BET_HISTORY = 'SET_BET_HISTORY'

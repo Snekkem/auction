@@ -1,0 +1,62 @@
+.textArea {
+    border: 0;
+    width: 600px;
+    height: 100px;
+    resize: none;
+    outline: none;
+    box-shadow: 0 0 20px rgba(103, 193, 245, 0.3);
+    color: #abdaf4;
+    margin-top: 20px;
+    padding: 5px 50px 5px 10px;
+    font-style: italic;
+    border-radius: 3px;
+    background-color: #1b2838;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+.textArea:focus {
+    color: white;
+    background-color: rgb(55, 69, 110);
+}
+
+.titleChat {
+    margin-top: 20px;
+    color: #66C0F4;
+    font-size: 28px;
+    text-align: center;
+}
+
+.messagesChat {
+    box-shadow: 0 0 50px rgba(103, 193, 245, 0.3);
+    height: 685px;
+    overflow-y: scroll;
+    background-color: #202c3b;
+    padding: 10px;
+}
+
+.btnSubmit {
+    height: 100px;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: -50px;
+    padding: 8px;
+    margin-bottom: 1px;
+}
+
+.senderName {
+    color: #50a3d9;
+    margin-right: 5px;
+}
+
+.message {
+    margin: 5px auto;
+    border-radius: 3px;
+    background-color: #0a1c31;
+    padding: 5px;
+}
+
+.btnSubmit:hover {
+    cursor: pointer;
+}

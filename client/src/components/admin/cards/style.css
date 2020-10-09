@@ -1,0 +1,106 @@
+.dead {
+    height: 10px;
+    width: 10px;
+    margin-right: 0.375rem;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.unknown {
+    height: 10px;
+    width: 10px;
+    margin-right: 0.375rem;
+    background-color: darkgray;
+    border-radius: 50%;
+}
+
+.alive {
+    height: 10px;
+    width: 10px;
+    margin-right: 0.375rem;
+    background-color: limegreen;
+    border-radius: 50%;
+}
+
+.card {
+    position: relative;
+}
+
+.btn-delete {
+    transition: .3s;
+    position: absolute;
+    right: -3%;
+    top: -7%;
+    z-index: 1000;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.btn-delete:hover {
+    cursor: pointer;
+}
+
+.btn-edit {
+    transition: .3s;
+    position: absolute;
+    right: 1%;
+    bottom: 3%;
+    z-index: 2;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.btn-start {
+    transition: .3s;
+    margin: 0;
+    position: absolute;
+    left: 0.1%;
+    bottom: -18%;
+    height: 40px;
+    width: 100%;
+}
+
+.btn-edit:hover,
+.btn-delete:hover,
+.btn-start:hover
+ {
+     cursor: pointer;
+ }
+
+.btn-edit:focus,
+.btn-delete:focus,
+.btn-start:focus {
+    outline: none;
+}
+
+.auction-form {
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.auction-form:focus {
+    outline: none;
+}
+
+.separator {
+    background: rgb(66, 168, 185);
+    background: linear-gradient(90deg, rgba(66,168,185,0.8267682072829132) 0%, rgba(29,194,210,0) 100%);
+    width: 100%;
+    height: 1px;
+}
+
+.title {
+    margin-top: 20px;
+    color: #66C0F4;
+    font-size: 28px;
+}

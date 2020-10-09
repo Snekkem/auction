@@ -1,0 +1,4 @@
+export const SET_ALL_CARDS = 'SET_ALL_CARDS'
+export const SET_ALL_EPISODES = 'SET_ALL_EPISODES'
+export const SET_ALL_LOCATIONS = 'SET_ALL_LOCATIONS'
+export const SET_ALL_SETS = 'SET_ALL_SETS'

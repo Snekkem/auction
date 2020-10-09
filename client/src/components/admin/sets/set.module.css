@@ -1,0 +1,8 @@
+.cardImg {
+    transition: .3s;
+}
+
+.cardImg:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}

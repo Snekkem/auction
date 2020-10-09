@@ -1,0 +1,16 @@
+.filerContainer {
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: #243345;
+    padding: 10px;
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+
+

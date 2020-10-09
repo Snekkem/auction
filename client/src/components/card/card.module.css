@@ -1,0 +1,134 @@
+.card {
+    position: relative;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #404040;
+    height: 220px;
+    margin: 20px 20px 50px 20px;
+    transition: .3s;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.cardBrightness {
+    filter: brightness(50%);
+}
+
+.cardNormal {
+    filter: brightness(100%);
+}
+
+.cardImg {
+    height: 220px;
+    width: 230px;
+    border-top-left-radius: 10px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.glowOnHover {
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+}
+
+.glowOnHover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+}
+
+.glowOnHover:active {
+    color: #000
+}
+
+.glowOnHover:active:after {
+    background: transparent;
+}
+
+.glowOnHover:hover:before {
+    opacity: 1;
+}
+
+.glowOnHover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #343A40;
+    left: 0;
+    top: 0;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.cardModal {
+    position: fixed;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.cardModal:focus {
+    outline: none;
+}
+
+.cardOverlay {
+    color: #000;
+    position: fixed;
+    max-width: 600px;
+    height: 560px;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    background-color: rebeccapurple;
+}
+
+.cardEditModal {
+    position: fixed;
+    padding: 20px;
+    min-width: 500px;
+    max-height: 700px;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 1);
+}

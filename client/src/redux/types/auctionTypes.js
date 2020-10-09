@@ -1,0 +1,5 @@
+export const SET_AUCTIONS = 'SET_AUCTIONS'
+export const SET_BET = 'SET_BET'
+export const SET_AUCTION = 'SET_AUCTION'
+export const SET_END_AUCTION = 'SET_END_AUCTION'
+export const SET_EXTENSION_TIME = 'SET_EXTENSION_TIME'

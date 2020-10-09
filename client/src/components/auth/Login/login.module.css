@@ -1,0 +1,18 @@
+.formCenter {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    background-color: rgb(55, 69, 110);
+    border: 0;
+    color: white;
+    width: 350px;
+}
+
+.input:focus {
+    color: white;
+    background-color: rgb(55, 69, 110);
+}

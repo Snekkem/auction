@@ -1,0 +1,6 @@
+{
+  "env": {
+    "MONGODB_URI":"mongodb+srv://Alex:1234qwer@cluster0.ourr5.mongodb.net/MERN-jsn?retryWrites=true&w=majority",
+    "SECRET": "ya tebe ne skazhy"
+  }
+}

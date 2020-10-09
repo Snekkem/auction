@@ -1,0 +1,11 @@
+{
+  "port": 5000,
+  "pathToImage": "http://localhost:5000/uploads/",
+  "webSocketPort": 8000,
+  "roles": {
+    "admin": "Admin",
+    "user": "User"
+  },
+  "pagination_per_page": 20,
+  "pagination_initial_page": 1
+}
